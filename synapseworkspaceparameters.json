@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "ppwrkspcsynapse"
+        },
+        "location": {
+            "value": "eastus2"
+        },
+        "defaultDataLakeStorageAccountName": {
+            "value": "ppadlsgen2"
+        },
+        "defaultDataLakeStorageFilesystemName": {
+            "value": "ppfsdemo"
+        },
+        "sqlAdministratorLogin": {
+            "value": "sqladminuser"
+        },
+        "sqlAdministratorLoginPassword": {
+            "value": "P@ssw0rd"
+        },
+        "setWorkspaceIdentityRbacOnStorageAccount": {
+            "value": true
+        },
+        "allowAllConnections": {
+            "value": true
+        },
+        "grantWorkspaceIdentityControlForSql": {
+            "value": "Enabled"
+        },
+        "managedVirtualNetwork": {
+            "value": ""
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "storageSubscriptionID": {
+            "value": "406fff36-0355-48fd-9597-4904a1a6f381"
+        },
+        "storageResourceGroupName": {
+            "value": "pplab"
+        },
+        "storageLocation": {
+            "value": "eastus2"
+        },
+        "storageRoleUniqueId": {
+            "value": "7d6d4480-ae55-457c-bc5e-3f93a838f011"
+        },
+        "isNewStorageAccount": {
+            "value": true
+        },
+        "isNewFileSystemOnly": {
+            "value": false
+        },
+        "adlaResourceId": {
+            "value": ""
+        },
+        "managedResourceGroupName": {
+            "value": ""
+        },
+        "storageAccessTier": {
+            "value": "Hot"
+        },
+        "storageAccountType": {
+            "value": "Standard_RAGRS"
+        },
+        "storageSupportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "storageKind": {
+            "value": "StorageV2"
+        },
+        "storageIsHnsEnabled": {
+            "value": true
+        },
+        "userObjectId": {
+            "value": "67130d9a-cfe6-4b56-8b83-d7e1aa80e751"
+        },
+        "setSbdcRbacOnStorageAccount": {
+            "value": false
+        }
+    }
+}
